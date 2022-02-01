@@ -1,5 +1,5 @@
 <details>
-  <summary>Spoiler warning</summary>
+  <summary>docker run hello-world</summary>
   
 ```shell
 vagrant@test-netology:~$
