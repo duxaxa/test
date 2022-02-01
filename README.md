@@ -1,6 +1,7 @@
 <details>
   <summary>Spoiler warning</summary>
-```
+  
+```shell
 vagrant@test-netology:~$
  sudo docker run hello-world
 Unable to find image 'hello-world:latest' locally
@@ -30,4 +31,5 @@ Share images, automate workflows, and more with a free Docker ID:
 For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
+  
 </details>
