@@ -1,3 +1,7 @@
+<details>
+  <summary>Ошибка при старте контейнера centos</summary>
+
+```shell
 Feb 01 18:22:40 test-netology systemd[1]: var-lib-docker-overlay2-dc5aca292a6e09dad837a27f4ecc476932583614bf33ddfe60319f9cfd812db2\x2dinit-merged.mount: Succeeded.
 -- Subject: Unit succeeded
 -- Defined-By: systemd
@@ -30,10 +34,6 @@ Feb 01 18:22:40 test-netology systemd[1]: run-docker-runtime\x2drunc-moby-eb75af
 -- The unit run-docker-runtime\x2drunc-moby-eb75af43de5388761808db3d959d5353b9311493888e442d8db7064e2d965930-runc.qJ7GPj.mount has successfully entered the 'dead' state.
 Feb 01 18:22:40 test-netology systemd[1497]: run-docker-runtime\x2drunc-moby-eb75af43de5388761808db3d959d5353b9311493888e442d8db7064e2d965930-runc.qJ7GPj.mount: Succeeded.
 -- Subject: Unit succeeded
-<details>
-  <summary>docker run hello-world</summary>
-  
-```shell
 -- Defined-By: systemd
 -- Support: http://www.ubuntu.com/support
 -- 
@@ -87,5 +87,5 @@ Feb 01 18:22:41 test-netology systemd[1]: var-lib-docker-overlay2-dc5aca292a6e09
 -- The unit var-lib-docker-overlay2-dc5aca292a6e09dad837a27f4ecc476932583614bf33ddfe60319f9cfd812db2-merged.mount has successfully entered the 'dead' state.
 Feb 01 18:22:41 test-netology systemd-networkd[434]: docker0: Lost carrier
 ```
-  
+
 </details>
